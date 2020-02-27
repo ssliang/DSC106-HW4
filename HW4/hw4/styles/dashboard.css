@@ -1,0 +1,70 @@
+* {
+    font-family: 'Montserrat', sans-serif;
+}
+
+h1, h3 {
+    font-family: 'Paytone One', sans-serif;
+    font-size: 1.8vw;
+}
+
+#vitalScorecards {
+    display: grid;
+    grid-column-gap: 50px;
+    grid-template-columns: auto auto auto;
+    text-align: center;
+}
+
+
+/* #summaryCharts {
+    display: flex;
+    height: 500px;
+}
+
+#summaryCharts section {
+    border: 1px solid black;
+    background: green;
+    flex: 1 1 auto;
+    flex-basis: 50%;
+} */
+
+
+.chart-parent--container {
+    display: flex;
+}
+
+.chart--container {
+    height: 100%;
+    width: 100%;
+    min-height: 400px;
+}
+
+#dingusSold, #widgetSold, #totalSales {
+    font-size: 0.2vw;
+}
+
+#vitalScorecards h3 {
+    color: black;
+}
+
+#vitalScorecards output {
+    font-size: xx-large;
+    color: blue;
+}
+
+#totalSales:before {
+    content: '$';
+    /*font-size: xx-large;*/
+    font-size: 2.2vw;
+    color: green;
+}
+
+/* for resizing stock chart */
+#stockChart {
+    height: 100%;
+    width: 97%;
+    min-height: 400px;
+}
+
+text.highcharts-credits {
+    display: none;
+}
