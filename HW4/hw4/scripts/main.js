@@ -255,6 +255,7 @@ function plotColumn(continent) {
 		chart: {
 			type: 'column',
 			reflow: true,
+			animation: false,
 		},
 		legend: {
 			align: 'right',
